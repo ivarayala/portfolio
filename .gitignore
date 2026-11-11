@@ -1,0 +1,10 @@
+# Dependencias y resultados generados
+node_modules/
+test-results/
+playwright-report/
+target/
+# Bases de datos locales (se regeneran con los scripts .sql)
+*.db
+# Editor
+.vscode/
+.idea/
