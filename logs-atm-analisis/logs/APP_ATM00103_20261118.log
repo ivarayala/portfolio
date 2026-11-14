@@ -1,0 +1,207 @@
+2026-11-18 07:55:00.000 [INFO ] [SYS ] Application started, version 4.2.7
+2026-11-18 07:55:02.000 [INFO ] [XFS ] Devices opened: IDC PIN CDM PTR SIU
+2026-11-18 07:55:05.000 [INFO ] [SUP ] Supervisor mode entered
+2026-11-18 07:55:40.000 [INFO ] [SUP ] Cassettes loaded: C1 20 EUR x 1500, C2 50 EUR x 1000
+2026-11-18 07:55:55.000 [INFO ] [SUP ] Supervisor mode exited - IN SERVICE
+2026-11-18 08:05:16.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0002
+2026-11-18 08:05:16.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 08:05:22.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 08:05:25.000 [DEBUG] [UI  ] Amount selected: 40.00 EUR
+2026-11-18 08:05:26.000 [INFO ] [HOST] Sending 0200 STAN=000101 amount=4000
+2026-11-18 08:05:26.539 [INFO ] [HOST] Received 0210 STAN=000101 DE39=00
+2026-11-18 08:05:26.569 [INFO ] [CDM ] Dispense command: 0x50 2x20
+2026-11-18 08:05:31.539 [INFO ] [CDM ] Notes presented: 2 x 20
+2026-11-18 08:05:34.539 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 08:05:35.539 [INFO ] [PTR ] Receipt printed
+2026-11-18 08:05:36.539 [INFO ] [TRX ] Transaction completed STAN=000101
+2026-11-18 08:12:52.000 [DEBUG] [SYS ] Printer paper level: OK
+2026-11-18 08:19:52.000 [DEBUG] [SIU ] SIU sensors OK
+2026-11-18 08:55:18.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0010
+2026-11-18 08:55:18.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 08:55:24.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 08:55:27.000 [DEBUG] [UI  ] Amount selected: 60.00 EUR
+2026-11-18 08:55:28.000 [INFO ] [HOST] Sending 0200 STAN=000102 amount=6000
+2026-11-18 08:55:28.731 [INFO ] [HOST] Received 0210 STAN=000102 DE39=00
+2026-11-18 08:55:28.761 [INFO ] [CDM ] Dispense command: 0x50 3x20
+2026-11-18 08:55:33.731 [INFO ] [CDM ] Notes presented: 3 x 20
+2026-11-18 08:55:36.731 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 08:55:37.731 [INFO ] [PTR ] Receipt printed
+2026-11-18 08:55:38.731 [INFO ] [TRX ] Transaction completed STAN=000102
+2026-11-18 09:01:42.000 [DEBUG] [PTR ] SIU sensors OK
+2026-11-18 09:21:17.000 [DEBUG] [SYS ] Idle screen refresh
+2026-11-18 09:40:40.000 [INFO ] [IDC ] Card inserted, magstripe read OK, PAN=400012******0012
+2026-11-18 09:40:40.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 09:40:46.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 09:40:49.000 [DEBUG] [UI  ] Amount selected: 20.00 EUR
+2026-11-18 09:40:50.000 [INFO ] [HOST] Sending 0200 STAN=000103 amount=2000
+2026-11-18 09:40:50.650 [INFO ] [HOST] Received 0210 STAN=000103 DE39=00
+2026-11-18 09:40:50.680 [INFO ] [CDM ] Dispense command: 0x50 1x20
+2026-11-18 09:40:55.650 [INFO ] [CDM ] Notes presented: 1 x 20
+2026-11-18 09:40:58.650 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 09:40:59.650 [INFO ] [PTR ] Receipt printed
+2026-11-18 09:41:00.650 [INFO ] [TRX ] Transaction completed STAN=000103
+2026-11-18 10:22:41.000 [DEBUG] [PTR ] Screen WELCOME displayed
+2026-11-18 10:25:31.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0005
+2026-11-18 10:25:31.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 10:25:37.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 10:25:40.000 [DEBUG] [UI  ] Amount selected: 20.00 EUR
+2026-11-18 10:25:41.000 [INFO ] [HOST] Sending 0200 STAN=000104 amount=2000
+2026-11-18 10:25:41.474 [INFO ] [HOST] Received 0210 STAN=000104 DE39=00
+2026-11-18 10:25:41.504 [INFO ] [CDM ] Dispense command: 0x50 1x20
+2026-11-18 10:25:46.474 [INFO ] [CDM ] Notes presented: 1 x 20
+2026-11-18 10:25:49.474 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 10:25:50.474 [INFO ] [PTR ] Receipt printed
+2026-11-18 10:25:51.474 [INFO ] [TRX ] Transaction completed STAN=000104
+2026-11-18 10:43:53.000 [DEBUG] [SYS ] Screen WELCOME displayed
+2026-11-18 11:01:07.000 [DEBUG] [SIU ] Heartbeat to monitoring OK
+2026-11-18 11:20:27.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0011
+2026-11-18 11:20:27.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 11:20:27.410 [DEBUG] [TRX ] Track2 parsed: PAN=4000120000000011 EXP=2812 SVC=201
+2026-11-18 11:20:33.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 11:20:36.000 [DEBUG] [UI  ] Amount selected: 40.00 EUR
+2026-11-18 11:20:37.000 [INFO ] [HOST] Sending 0200 STAN=000105 amount=4000
+2026-11-18 11:20:37.663 [INFO ] [HOST] Received 0210 STAN=000105 DE39=00
+2026-11-18 11:20:37.693 [INFO ] [CDM ] Dispense command: 0x50 2x20
+2026-11-18 11:20:42.663 [INFO ] [CDM ] Notes presented: 2 x 20
+2026-11-18 11:20:45.663 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 11:20:46.663 [INFO ] [PTR ] Receipt printed
+2026-11-18 11:20:47.663 [INFO ] [TRX ] Transaction completed STAN=000105
+2026-11-18 11:37:16.000 [DEBUG] [UI  ] Idle screen refresh
+2026-11-18 12:10:00.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0006
+2026-11-18 12:10:00.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 12:10:06.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 12:10:09.000 [DEBUG] [UI  ] Amount selected: 50.00 EUR
+2026-11-18 12:10:10.000 [INFO ] [HOST] Sending 0200 STAN=000106 amount=5000
+2026-11-18 12:10:10.648 [INFO ] [HOST] Received 0210 STAN=000106 DE39=00
+2026-11-18 12:10:10.678 [INFO ] [CDM ] Dispense command: 1x50 0x20
+2026-11-18 12:10:15.648 [INFO ] [CDM ] Notes presented: 1 x 50
+2026-11-18 12:10:18.648 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 12:10:19.648 [INFO ] [PTR ] Receipt printed
+2026-11-18 12:10:20.648 [INFO ] [TRX ] Transaction completed STAN=000106
+2026-11-18 12:27:38.000 [DEBUG] [UI  ] Screen WELCOME displayed
+2026-11-18 12:38:27.000 [DEBUG] [SYS ] Heartbeat to monitoring OK
+2026-11-18 13:00:28.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0009
+2026-11-18 13:00:28.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 13:00:34.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 13:00:37.000 [DEBUG] [UI  ] Amount selected: 100.00 EUR
+2026-11-18 13:00:38.000 [INFO ] [HOST] Sending 0200 STAN=000107 amount=10000
+2026-11-18 13:00:38.389 [INFO ] [HOST] Received 0210 STAN=000107 DE39=00
+2026-11-18 13:00:38.419 [INFO ] [CDM ] Dispense command: 2x50 0x20
+2026-11-18 13:00:43.389 [INFO ] [CDM ] Notes presented: 2 x 50
+2026-11-18 13:00:46.389 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 13:00:47.389 [INFO ] [PTR ] Receipt printed
+2026-11-18 13:00:48.389 [INFO ] [TRX ] Transaction completed STAN=000107
+2026-11-18 13:16:02.000 [DEBUG] [UI  ] Printer paper level: OK
+2026-11-18 13:24:57.000 [DEBUG] [SIU ] Screen WELCOME displayed
+2026-11-18 13:45:04.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0008
+2026-11-18 13:45:04.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 13:45:10.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 13:45:13.000 [DEBUG] [UI  ] Amount selected: 100.00 EUR
+2026-11-18 13:45:14.000 [INFO ] [HOST] Sending 0200 STAN=000108 amount=10000
+2026-11-18 13:45:14.532 [INFO ] [HOST] Received 0210 STAN=000108 DE39=51
+2026-11-18 13:45:14.552 [INFO ] [TRX ] Declined by host code 51
+2026-11-18 13:45:17.532 [INFO ] [IDC ] Card ejected and taken
+2026-11-18 14:23:27.000 [DEBUG] [SYS ] Idle screen refresh
+2026-11-18 14:30:34.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0001
+2026-11-18 14:30:34.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 14:30:40.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 14:30:43.000 [DEBUG] [UI  ] Amount selected: 100.00 EUR
+2026-11-18 14:30:44.000 [INFO ] [HOST] Sending 0200 STAN=000109 amount=10000
+2026-11-18 14:30:44.531 [INFO ] [HOST] Received 0210 STAN=000109 DE39=00
+2026-11-18 14:30:44.561 [INFO ] [CDM ] Dispense command: 2x50 0x20
+2026-11-18 14:30:49.531 [INFO ] [CDM ] Notes presented: 2 x 50
+2026-11-18 14:30:52.531 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 14:30:53.531 [INFO ] [PTR ] Receipt printed
+2026-11-18 14:30:54.531 [INFO ] [TRX ] Transaction completed STAN=000109
+2026-11-18 14:33:59.000 [DEBUG] [SIU ] Screen WELCOME displayed
+2026-11-18 15:20:08.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0001
+2026-11-18 15:20:08.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 15:20:14.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 15:20:17.000 [DEBUG] [UI  ] Amount selected: 70.00 EUR
+2026-11-18 15:20:18.000 [INFO ] [HOST] Sending 0200 STAN=000110 amount=7000
+2026-11-18 15:20:18.753 [INFO ] [HOST] Received 0210 STAN=000110 DE39=00
+2026-11-18 15:20:18.783 [INFO ] [CDM ] Dispense command: 1x50 1x20
+2026-11-18 15:20:23.753 [INFO ] [CDM ] Notes presented: 1 x 50 + 1 x 20
+2026-11-18 15:20:26.753 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 15:20:27.753 [INFO ] [PTR ] Receipt printed
+2026-11-18 15:20:28.753 [INFO ] [TRX ] Transaction completed STAN=000110
+2026-11-18 15:32:19.000 [DEBUG] [SYS ] Printer paper level: OK
+2026-11-18 15:39:20.000 [DEBUG] [SYS ] Idle screen refresh
+2026-11-18 16:05:02.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0003
+2026-11-18 16:05:02.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 16:05:08.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 16:05:11.000 [DEBUG] [UI  ] Amount selected: 80.00 EUR
+2026-11-18 16:05:12.000 [INFO ] [HOST] Sending 0200 STAN=000111 amount=8000
+2026-11-18 16:05:12.746 [INFO ] [HOST] Received 0210 STAN=000111 DE39=00
+2026-11-18 16:05:12.776 [INFO ] [CDM ] Dispense command: 0x50 4x20
+2026-11-18 16:05:17.746 [WARN ] [CDM ] Dispense incomplete - cassette 1 (20 EUR) low: 3 of 4 notes presented
+2026-11-18 16:05:21.746 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 16:05:22.746 [INFO ] [TRX ] Transaction completed STAN=000111
+2026-11-18 16:12:26.000 [DEBUG] [SIU ] Printer paper level: OK
+2026-11-18 16:25:44.000 [DEBUG] [SIU ] Heartbeat to monitoring OK
+2026-11-18 17:00:15.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0011
+2026-11-18 17:00:15.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 17:00:21.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 17:00:24.000 [DEBUG] [UI  ] Amount selected: 40.00 EUR
+2026-11-18 17:00:25.000 [INFO ] [HOST] Sending 0200 STAN=000112 amount=4000
+2026-11-18 17:00:25.742 [INFO ] [HOST] Received 0210 STAN=000112 DE39=00
+2026-11-18 17:00:25.772 [INFO ] [CDM ] Dispense command: 0x50 2x20
+2026-11-18 17:00:30.742 [INFO ] [CDM ] Notes presented: 2 x 20
+2026-11-18 17:00:33.742 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 17:00:34.742 [INFO ] [PTR ] Receipt printed
+2026-11-18 17:00:35.742 [INFO ] [TRX ] Transaction completed STAN=000112
+2026-11-18 17:35:53.000 [DEBUG] [SYS ] Idle screen refresh
+2026-11-18 17:39:36.000 [DEBUG] [PTR ] Heartbeat to monitoring OK
+2026-11-18 17:55:35.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0007
+2026-11-18 17:55:35.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 17:55:41.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 17:55:44.000 [DEBUG] [UI  ] Amount selected: 200.00 EUR
+2026-11-18 17:55:45.000 [INFO ] [HOST] Sending 0200 STAN=000113 amount=20000
+2026-11-18 17:55:45.538 [INFO ] [HOST] Received 0210 STAN=000113 DE39=00
+2026-11-18 17:55:45.568 [INFO ] [CDM ] Dispense command: 4x50 0x20
+2026-11-18 17:55:50.538 [INFO ] [CDM ] Notes presented: 4 x 50
+2026-11-18 17:55:53.538 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 17:55:54.538 [INFO ] [PTR ] Receipt printed
+2026-11-18 17:55:55.538 [INFO ] [TRX ] Transaction completed STAN=000113
+2026-11-18 18:18:13.000 [DEBUG] [SYS ] Printer paper level: OK
+2026-11-18 18:29:28.000 [DEBUG] [SIU ] Printer paper level: OK
+2026-11-18 18:45:10.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0003
+2026-11-18 18:45:10.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 18:45:16.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 18:45:19.000 [DEBUG] [UI  ] Amount selected: 100.00 EUR
+2026-11-18 18:45:20.000 [INFO ] [HOST] Sending 0200 STAN=000114 amount=10000
+2026-11-18 18:45:20.405 [INFO ] [HOST] Received 0210 STAN=000114 DE39=00
+2026-11-18 18:45:20.435 [INFO ] [CDM ] Dispense command: 2x50 0x20
+2026-11-18 18:45:25.405 [INFO ] [CDM ] Notes presented: 2 x 50
+2026-11-18 18:45:28.405 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 18:45:29.405 [INFO ] [PTR ] Receipt printed
+2026-11-18 18:45:30.405 [INFO ] [TRX ] Transaction completed STAN=000114
+2026-11-18 19:18:32.000 [DEBUG] [SYS ] Screen WELCOME displayed
+2026-11-18 19:32:30.000 [DEBUG] [UI  ] SIU sensors OK
+2026-11-18 20:05:52.000 [DEBUG] [SYS ] SIU sensors OK
+2026-11-18 20:14:51.000 [DEBUG] [SIU ] SIU sensors OK
+2026-11-18 20:15:21.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0007
+2026-11-18 20:15:21.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 20:15:27.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 20:15:30.000 [DEBUG] [UI  ] Amount selected: 60.00 EUR
+2026-11-18 20:15:31.000 [INFO ] [HOST] Sending 0200 STAN=000115 amount=6000
+2026-11-18 20:15:31.653 [INFO ] [HOST] Received 0210 STAN=000115 DE39=00
+2026-11-18 20:15:31.683 [INFO ] [CDM ] Dispense command: 0x50 3x20
+2026-11-18 20:15:36.653 [INFO ] [CDM ] Notes presented: 3 x 20
+2026-11-18 20:15:39.653 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 20:15:40.653 [INFO ] [PTR ] Receipt printed
+2026-11-18 20:15:41.653 [INFO ] [TRX ] Transaction completed STAN=000115
+2026-11-18 21:01:02.000 [DEBUG] [PTR ] SIU sensors OK
+2026-11-18 21:20:06.000 [INFO ] [IDC ] Card inserted, chip read OK, PAN=400012******0007
+2026-11-18 21:20:06.300 [DEBUG] [UI  ] Screen PIN_ENTRY displayed
+2026-11-18 21:20:12.000 [INFO ] [PIN ] PIN block captured by EPP
+2026-11-18 21:20:15.000 [DEBUG] [UI  ] Amount selected: 20.00 EUR
+2026-11-18 21:20:16.000 [INFO ] [HOST] Sending 0200 STAN=000116 amount=2000
+2026-11-18 21:20:16.861 [INFO ] [HOST] Received 0210 STAN=000116 DE39=00
+2026-11-18 21:20:16.891 [INFO ] [CDM ] Dispense command: 0x50 1x20
+2026-11-18 21:20:21.861 [INFO ] [CDM ] Notes presented: 1 x 20
+2026-11-18 21:20:24.861 [INFO ] [CDM ] Notes taken by customer
+2026-11-18 21:20:25.861 [INFO ] [PTR ] Receipt printed
+2026-11-18 21:20:26.861 [INFO ] [TRX ] Transaction completed STAN=000116
+2026-11-18 21:39:54.000 [DEBUG] [PTR ] Idle screen refresh
+2026-11-18 22:05:20.000 [INFO ] [SUP ] End of day totals printed: dispensed 980.00 EUR

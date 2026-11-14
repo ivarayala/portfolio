@@ -8,6 +8,7 @@
 | Proyecto | Qué demuestra | Tecnologías |
 | --- | --- | --- |
 | [sql-atm-verificacion](sql-atm-verificacion/) | Verificar operaciones de cajero con SQL: buscar por STAN, cruzar tablas con JOIN, detectar inconsistencias y comprobar el cierre diario (cuadre) | SQL, SQLite, DBeaver |
+| [logs-atm-analisis](logs-atm-analisis/) | Investigar incidencias de cajero correlacionando EJ, log de aplicación y mensajes ISO 8583; distinguir bug de comportamiento correcto y comprobar el cierre | Logs, ISO 8583, klogg, regex, Python |
 | [playwright-saucedemo](playwright-saucedemo/) | Automatización E2E: login, usuario bloqueado y detección de un bug de ordenación, con evidencias (capturas y trazas) | Playwright, TypeScript |
 | [selenium-saucedemo](selenium-saucedemo/) | Los mismos casos con Selenium WebDriver, JUnit 5 y Maven (esperas explícitas, capturas) | Java, Selenium, JUnit 5, Maven |
 | [bug-reports](bug-reports/) | Reportes de defectos con pasos, esperado/obtenido, severidad y evidencias | Jira-style |
